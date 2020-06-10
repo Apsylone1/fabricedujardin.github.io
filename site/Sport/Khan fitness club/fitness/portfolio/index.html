@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<!--===== Meta Tag =====-->
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="description" content="Fabrice - Personal Portfolio HTML Template">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="business, agency, blog, cv, creative, html, one page, personal, portfolio, resume, responsive, bootstrap, photography, designer, developer">
+	<meta name="author" content="root">
+
+	 <!--	Css Links
+    ==================================================-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/jquery.pagepiling.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="fonts/flaticon.css">
+    <link rel="stylesheet" href="css/plugins.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/color.css" id="color-change">
+
+     <!-- Favicon 
+    ==================================================-->
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon.ico">
+
+      <!--	Title
+    ==================================================-->
+	<title>Fabrice - Personal Portfolio HTML Template</title>
+
+</head>
+<body id="top" class="page-load">
+	<!--	Preloader
+	==================================================-->
+	<div class="preloader">
+		<div class="lds-css ng-scope">
+			<div class="lds-spinner" style="100%;height:100%">
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+	</div>
+	<!-- Color Settings Start
+	==================================================-->
+	<div class="color-panel">
+		<div class="on-panel color_white bg_primary">
+			<div class="text-center icon-spinner">
+			  <i class="fa fa-cog fa-spin fa-3x fa-fw"></i>
+			</div>
+		</div>
+		<div class="panel-box">
+			<span class="panel-title">Theme Colors</span>		
+		</div>
+		<div class="template_style">
+			<span class="layout_title">Template Style</span>
+			<ul>
+				<li><a class="btn_link" href="index.html" target="blank">White Version</a></li>
+				<li><a class="btn_link" href="index-1.html" target="blank">Black Version</a></li>
+			</ul>
+		</div>
+	</div>
+	<!--  Color Settings End
+	==============================================-->
+	<!--	Start Sidebar
+	==================================================-->
+	<div id="mysidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="flaticon-close-button"></i></a>
+	  <img class="nav-logo" src="images/logo/291.png" alt="image">
+	  	<ul id="menu">
+			<li data-menuanchor="page1" class="active"><a href="#page1">Home</a></li>
+			<li data-menuanchor="page2"><a href="#page2">A propos de moi.</a></li>
+			<li data-menuanchor="page3"><a href="#page3">Résumer</a></li>
+			<li data-menuanchor="page4"><a href="#page4">Services</a></li>
+			<li data-menuanchor="page5"><a href="#page5">Team</a></li>
+			<li data-menuanchor="page6"><a href="#page6">Testimonial</a></li>
+			<li data-menuanchor="page7"><a href="#page7">Contact</a></li>
+		</ul>
+	</div>
+	<div class="sidebar bg_primary">
+		<div class="logo text-center"><a href="#page1"><strong>DEV</strong></a></div>
+		<span style="cursor:pointer" onclick="openNav()">&#9776;</span>
+		<div class="socal_media mt_60">
+			<ul>
+				<li><a href="https://www.facebook.com/profile.php?id=100010364235108"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+				<li><a href="https://twitter.com/DUJARDINFabric3"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+				<li><a href="https://www.linkedin.com/in/fabrice-dujardin-246066175/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+			</ul>
+		</div>			
+	</div>
+	<div class="contact_massage bg_primary">
+		<a href="#page9"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+	</div>
+	<!--	End Sidebar
+	=======================================================-->
+	<div id="pagepiling">
+	    <!--	Start Slider
+		===================================================-->
+		<div id="slider" class="section bg_white">
+			<div class="line-container">
+				<div class="row">
+					<div class="col-md-3 col-lg-3"><div class="liner"></div></div>
+					<div class="col-md-3 col-lg-3"><div class="liner"></div></div>
+					<div class="col-md-3 col-lg-3"><div class="liner"></div></div>
+					<div class="col-md-3 col-lg-3"><div class="liner"></div></div>
+				</div>
+			</div>
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			  <ol class="carousel-indicators">
+			    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			  </ol>
+			  <div class="carousel-inner overlay_three">
+			    <div class="carousel-item active">
+			      <div class="overlay_one pattan"><img  class="" src="images/slider/01.jpg" alt="slide image"></div>
+			      <div class="carousel-caption">
+				    <h1 class="mb_20">Solution géniale<br> pour <span class="color_default">vous </span></h1>
+				    <p class="mb_20">
+							Un service de qualité à l'écoute de vos besoins. </p>
+				    <a class="btn btn-default" href="#">C'est parti !</a>
+				  </div>
+			    </div>
+			    <div class="carousel-item">
+			      <div class="overlay_one pattan"><img src="images/slider/02.jpg" alt="slide image"></div>
+			      <div class="carousel-caption">
+				    <h1 class="mb_20">
+							Solution géniale<br> pour <span class="color_default">vous </span></h1>
+				    <p class="mb_20">De la motivation à en faire mordre la poussière vos concurrent. </p>
+				    <a class="btn btn-default" href="#">C'est parti !</a>
+				  </div>
+			    </div>
+			    <div class="carousel-item">
+			      <div class="overlay_one pattan"><img src="images/slider/03.jpg" alt="slide image"></div>
+			      <div class="carousel-caption">
+				    <h1 class="mb_20">Solution géniale<br> pour <span class="color_default">vous </span></h1>
+				    <p class="mb_20">Une formation suivie par les meilleurs.</p>
+				    <a class="btn btn-default" href="https://www.cci.nc/">Info</a>
+				  </div>
+			    </div>
+			  </div>
+			</div>
+		</div>
+	    <!--	End Slider
+		===================================================-->
+		<!--	Start About
+		===================================================-->
+	    <div id="about" class="section bg_white pp-scrollable">
+	    	<div class="container-fluid">
+	    		<div class="row">
+	    			<div class="about2">
+	    				<div class="col-md-12 col-lg-12">
+	    					<div class="row">
+	    						<div class="col-md-4 col-lg-4">
+	    							<div class="overlay_one"><img src="images/about/01.jpg" alt="image"></div>
+	    						</div>
+	    						<div class="col-md-8 col-lg-8">
+	    							<div class="about_myself pb_60">
+	    								<!--	Start Title
+	    								================================-->
+	    								<div class="main_title my_60">
+											<h2 class="title color_primary">À propos de moi</h2>
+											<p class="mt_15">Je suis né en  Nouvelle-Calédonie . J'ai vécu mon enfance à Saint-Michel au Mont-Dore .</p>											
+										</div>
+										<!--	End Title
+	    								================================-->
+										<div class="row">
+		    								<div class="col-md-6 col-lg-6">
+												<div class="myself color_secondery">
+													<p>Depuit petit j'ai été nourri de l'informatique , l'adoration de se monde me fait rêver chaque matin quand je me lève et chaque soir quand je me couche . Pouvoir avoir la chance de contribuer à l'avancer dans ce domaine, me donne chaque jours de plus en plus de force .</p>
+													
+													<p class="pt_30">je m'appelle Fabrice Dujardin et bientôt je toucherai les étoiles .</p>
+												</div>
+				    						</div>
+				    						<div class="col-md-6 col-lg-6">
+				    							<div class="personal_info">
+				    								<ul>
+				    									<li><span class="color_secondery">Nom :</span> Fabrice Dujardin</li>
+														<li><span class="color_secondery">Email :</span> f.dujardin@cci-formation.nc</li>
+														<li><span class="color_secondery">Téléphone :</span> 97.58.16</li>
+														<li><span class="color_secondery">Date d'anniversaire :</span> 23 Mars 1992</li>
+														<li><span class="color_secondery"> Group Sanguin :</span> A+</li>
+														<li><span class="color_secondery">Address :</span> 150 saint-michel mont-dore Nouvelle-calédonie</li>		
+				    								</ul>
+				    							</div>
+				    						</div>
+		    							</div>
+	    							</div>
+	    						</div>
+	    					</div>	
+	    				</div>
+	    			</div>
+	    		</div>
+	    	</div>
+	    </div>
+	    <!--	End About
+		===================================================-->
+		<!--	Start Education and Experience
+		===================================================-->
+	    <div id="education" class="section bg_white pp-scrollable">
+	    	<div class="container-fluid">
+	    		<div class="row">
+	    			<div class="col-md-12 col-lg-12">
+	    				<div class="education_experience ml_105">
+	    					<!--	Start Title
+	    					================================-->
+		    				<div class="main_title my_60">
+								<h2 class="title color_primary">Compétence & Experience</h2>
+								<p class="mt_15">L’art de la renaissance  </p>											
+							</div>
+							<!--	End Title
+	    					================================-->
+		    				<ul class="nav nav-pills pb_60" id="pills-tab" role="tablist">
+							  <li class="nav-item">
+							    <a class="btn btn-default active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Experience</a>
+							  </li>
+							  <li class="nav-item mx_10">
+							    <a class="btn btn-default" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Compétence</a>
+							  </li>
+							</ul>
+							<div class="tab-content" id="pills-tabContent">
+							  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+						  		<div class="company pb_60">
+								  	<div class="row">
+								  		<div class="col-md-12 col-lg-4">
+								  			<h1 class="color_lightgray font-weight-bold">01.</h1>
+								  			<h4 class="color_primary font-weight-bold">Travailler dans l’entreprise “BB Transport”</h4>
+								  			<span class="color_secondery">2018</span>
+								  		</div>
+								  		<div class="col-md-12 col-lg-4">
+								  			<p>Transport de marchandise sur le territoire de NC </p>
+								  		</div>
+								  		<div class="col-md-12 col-lg-4">
+								  			<img src="images/education/01.jpg" alt="image">
+								  		</div>
+							  		</div>
+							  	</div>
+							  	<div class="company pb_60">
+							  		<div class="row">
+								  		<div class="col-md-12 col-lg-4">
+								  			<p>Déménagement sur secteur de nouméa </p>
+								  		</div>
+								  		<div class="col-md-12 col-lg-4">
+								  			<img src="images/education/02.jpg" alt="image">
+								  		</div>
+								  		<div class="col-md-12 col-lg-4">
+								  			<h1 class="color_lightgray font-weight-bold">02.</h1>
+								  			<h4 class="color_primary font-weight-bold">Travailler dans l’entreprise “City-expresse”</h4>
+								  			<span class="color_secondery">2018</span>
+								  		</div>
+								  	</div>
+							  	</div>
+							  	<div class="company pb_60">
+							  		<div class="row">
+							  			<div class="col-md-12 col-lg-4">
+								  			<img src="images/education/03.jpg" alt="image">
+								  		</div>
+								  		<div class="col-md-12 col-lg-4">
+								  			<h1 class="color_lightgray font-weight-bold">03.</h1>
+								  			<h4 class="color_primary font-weight-bold">Travailler dans l’entreprise “ARMEE FRANCAISE”</h4>
+								  			<span class="color_secondery">2010</span>
+								  		</div>
+								  		<div class="col-md-12 col-lg-4">
+								  			<p>Poseur de pneumatique,recreusage et rechapage(VL,PL,SPL et avant blindé)</p>
+												<p>Chauffeur militaire (permis A2,A,B,C,E)</p>
+												<p>Entretien mécanique des engins militaires</p>
+								  		</div>
+								  	</div>
+							  	</div>
+							  </div>
+							  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+							  	<div class="company pb_60">
+							  		<div class="row">
+								  		<div class="col-md-12 col-lg-4">
+								  			<img src="images/education/04.jpg" alt="image">
+								  		</div>
+								  		<div class="col-md-12 col-lg-4">
+								  			<p>Seul ou accompagner je me forme pour devenir bon dans mon domaine ! Devenir Développeur Web ces plus qu’un métier c'est une passion.</p>
+								  			
+								  		</div>
+								  		<div class="col-md-12 col-lg-4">
+								  			<h1 class="color_lightgray font-weight-bold">01.</h1>
+								  			<h4 class="color_primary font-weight-bold">Se forme en “HTML/CSS/java script”</h4>
+								  			<span class="color_secondery">2019</span>
+								  		</div>
+								  	</div>
+							  	</div>
+							  	<div class="company pb_60">
+							  		<div class="row">
+								  		<div class="col-md-12 col-lg-4">
+								  			<h1 class="color_lightgray font-weight-bold">02.</h1>
+								  			<h4 class="color_primary font-weight-bold">S'est formé dans “l'IH/M”</h4>
+								  			<span class="color_secondery">2016-2018</span>
+								  		</div>
+								  		<div class="col-md-12 col-lg-4">
+								  			<img src="images/education/05.jpg" alt="image">
+								  		</div>
+								  		<div class="col-md-12 col-lg-4">
+								  			<p>Suite à la réussite de mon mooc j’ai pu acquérir les bases de l'interaction Homme/Machine.</p>
+								  			
+								  		</div>
+								  	</div>
+							  	</div>
+							  	<div class="company pb_60">
+							  		<div class="row">
+							  			<div class="col-md-12 col-lg-4">
+								  			<p>Durant mon engagement dans l’armée française j’ai pu effectuer la maintenance et utilisation des appareil et engin de mon régiment . </p>
+								  			
+								  		</div>
+								  		<div class="col-md-12 col-lg-4">
+								  			<h1 class="color_lightgray font-weight-bold">03.</h1>
+								  			<h4 class="color_primary font-weight-bold">S'est formé en“TAI ARMEE FRANCAISE”</h4>
+								  			<span class="color_secondery">2010-2015</span>
+								  		</div>
+								  		<div class="col-md-12 col-lg-4">
+								  			<img src="images/education/06.jpg" alt="image">
+								  		</div>
+								  	</div>
+							  	</div>
+							  </div>
+							</div>
+		    			</div>
+	    			</div>
+	    		</div>
+	    		<div class="row bg_primary">
+	    			<div class="col-md-12 col-lg-12">
+	    				<div class="video my_60">
+							<div class="row">
+								<div class="col-md-12 col-lg-7">
+									<div class="video_content ml_105">
+										<h2 class="color_default">Mes montages video</h2>
+										<p class="color_white">Quand les rare moments de détente s'offres à moi je passe du temps sur mes montage vidéo images ou audio. </p>
+									</div>
+								</div>
+								<div class="col-md-12 col-lg-5">
+									<div class="personal_video">
+										<img src="images/video.jpg" alt="image">
+										<a class="video-popup" href="video/CCI 2019 APSYCODE .mp4" title="video popup">
+										<i class="fa fa-play" aria-hidden="true"></i></a>
+										<div class="loader xy-center">
+											<div class="loader-inner ball-scale-multiple">
+												<div></div>
+												<div></div>
+												<div></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>	
+	    			</div>
+	    		</div>
+	    	</div>
+	    </div>
+	    <!--	End Education and Experience
+		===================================================-->
+		<!--	Start Services
+		===================================================-->
+	    <div id="services" class="section bg_white pp-scrollable">
+	    	<div class="container">
+	    		<div class="services my_60">
+	    			<div class="row">
+		    			<div class="col-md-12 col-lg-12">
+		    				<!--	Start Title
+		    				================================-->
+		    				<div class="main_title pb_60">
+								<h2 class="title color_primary">Services Possible </h2>
+								<p class="mt_15">A se jours nombreux sans les possibilités, nombreux sans les défis réalisables et je mes donc mais compétence suivante à votre entière disposition pour un travail propre rapide et efficace.  </p>											
+							</div>
+							<!--	End Title
+		    				================================-->
+		    			</div>
+		    		</div>
+		    		<div class="services_item owl-carousel">
+						<div class="service_one text-center p_30">
+							<div class="srvicon bg_default color_white mx-auto mb_20"><span class="flaticon-website-design-symbol"></span></div>
+							<h3 class="font-weight-bold color_primary">Web Design</h3>
+							<p>Grace à la formation que j'ai pu avoir à la CCI nous obtenant les basses des principes et réglé fondamentale du web design et nous poussons donc les retranchements de l'impossible dans le possible grâce à nos partenaire et collaborateur. </p>
+						</div>
+						<div class="service_one text-center p_30">
+							<div class="srvicon bg_default color_white mx-auto mb_20"><span class="flaticon-programming"></span></div>
+							<h3 class="font-weight-bold color_primary">Web Development</h3>
+							<p>Que ce soit du Front End ou Back End je m'occuperais de vous pour qu'à la fin ce ne soit que votre pensée qui y soie représenter avec comme seul barrière votre imagination. </p>
+						</div>
+						<div class="service_one text-center p_30">
+							<div class="srvicon bg_default color_white mx-auto mb_20"><span class="flaticon-wordpress-logo"></span></div>
+							<h3 class="font-weight-bold color_primary">Wordpress</h3>
+							<p>Votre site sera dans les premiers du classement en SEO afin de bénéficier de ces nombreux avantage t'elle qu'un meilleur référencement ou une amélioration considérable du trafic sur votre site. </p>
+						</div>
+						<div class="service_one text-center p_30">
+							<div class="srvicon bg_default color_white mx-auto mb_20"><span class="flaticon-shopping-cart"></span></div>
+							<h3 class="font-weight-bold color_primary">Pannier Opti</h3>
+							<p>Vous aurais la possibilité d'avoir accès à l'optimisation de vos vente grâce aux savoir-faire de mes confrère et moi. </p>
+						</div>
+						<div class="service_one text-center p_30">
+							<div class="srvicon bg_default color_white mx-auto mb_20"><span class="flaticon-editor"></span></div>
+							<h3 class="font-weight-bold color_primary">Graghic Design</h3>
+							<p>Grace à la veille informatique nous restons connecter et informer sur les dernières actualités du marcher du design afin de permettre une prestation de qualité </p>
+						</div>
+		    		</div>
+	    		</div>
+	    	</div>
+	    </div>
+	    <!--	End Services
+		===================================================-->
+		<!--	Start Portfolio
+		===================================================-->
+	    
+		<!--	End Portfolio
+		===================================================-->
+		<!--	Start Pricing
+		===================================================-->
+	    
+	    <!--	End Pricing
+		===================================================-->
+		<!--	Start Team
+		===================================================-->
+	    <div id="team" class="section bg_white pp-scrollable">
+	    	<div class="container">
+	    		<div class="team my_60">
+	    			<div class="row">
+		    			<div class="col-md-12 col-lg-12">
+		    				<!--	Start Title
+		    				================================-->
+		    				<div class="main_title pb_60">
+								<h2 class="title color_primary">Team</h2>
+								<p class="mt_15">Notre équipe a était choisi pour faire de vos objectif une idée professionnelle et abordable son aucune frontière pour votre imagination.</p>											
+							</div>
+							<!--	End Title
+		    				================================-->
+		    			</div>
+		    		</div>
+		    		<div class="row">
+		    			<div class="col-md-12 col-lg-12">
+		    				<div class="team_member owl-carousel">
+		    					<div class="member">
+	    							<img src="images/team/01.jpg" alt="image">
+	    							<div class="data">
+	    								<h4 class="bg_default color_primary font-weight-bold m-0">Angsard Anais</h4>
+	    								<strong class="bg_primary color_white">Designer Pro</strong>
+	    							</div>
+	    							<div class="hover_overlay">
+	    								<div class="border">
+	    									<h4 class="color_default font-weight-bold text-center text-uppercase">Angsard Anais</h4>
+		    								<strong class="color_white text-center d-block mb_15">Designer pro</strong>
+		    								<p class="color_white">Professionnelle dans son domaine Madame Angsard possède les meilleures qualités possibles pour vos futur dissigne . </p>
+		    								<div class="socal_media">
+												<ul>
+													<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+													<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+													<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+													<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+													<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+												</ul>
+											</div>
+	    								</div>
+	    							</div>
+	    						</div>
+			    				<div class="member">
+	    							<img src="images/team/02.jpg" alt="image">
+	    							<div class="data">
+	    								<h4 class="bg_default color_primary font-weight-bold m-0">Rolland Steve</h4>
+	    								<strong class="bg_primary color_white">Optimisation  Syst</strong>
+	    							</div>
+	    							<div class="hover_overlay">
+	    								<div class="border">
+	    									<h4 class="color_default font-weight-bold text-center text-uppercase">Rolland Steve</h4>
+		    								<strong class="color_white text-center d-block mb_15">Optimisation Syst</strong>
+		    								<p class="color_white">Mr Rolland charger d'optimiser aux mieux les projets lancer a étais former par les meilleurs qui puise être.</p>
+		    								<div class="socal_media">
+												<ul>
+													<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+													<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+													<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+													<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+													<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+												</ul>
+											</div>
+	    								</div>
+	    							</div>
+	    						</div>
+			    				<div class="member">
+	    							<img src="images/team/03.jpg" alt="image">
+	    							<div class="data">
+	    								<h4 class="bg_default color_primary font-weight-bold m-0">Dujardin Fabrice</h4>
+	    								<strong class="bg_primary color_white">Developer</strong>
+	    							</div>
+	    							<div class="hover_overlay">
+	    								<div class="border">
+	    									<h4 class="color_default font-weight-bold text-center text-uppercase">Dujardin Fabrice</h4>
+		    								<strong class="color_white text-center d-block mb_15">Developer</strong>
+		    								<p class="color_white">Mr Dujardin charger de mettre en place la structure du site et de permettre ainsi le déploiement de la plateforme dans les délai avec comme objectif la perfection . </p>
+		    								<div class="socal_media">
+												<ul>
+													<li><a href="https://www.facebook.com/profile.php?id=100010364235108"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+													<li><a href="https://twitter.com/DUJARDINFabric3"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+													<li><a href="https://www.linkedin.com/in/fabrice-dujardin-246066175/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+												</ul>
+											</div>
+	    								</div>
+	    							</div>
+	    						</div>
+	    						<div class="member">
+	    							<img src="images/team/04.jpg" alt="image">
+	    							<div class="data">
+	    								<h4 class="bg_default color_primary font-weight-bold m-0">Rolland Anggun</h4>
+	    								<strong class="bg_primary color_white">Charger <br> en communication</strong>
+	    							</div>
+	    							<div class="hover_overlay">
+	    								<div class="border">
+	    									<h4 class="color_default font-weight-bold text-center text-uppercase">Rolland Anggun</h4>
+		    								<strong class="color_white text-center d-block mb_15">Charger <br>en communication</strong>
+		    								<p class="color_white">Madame Rolland et en charge de la gestion et communication avec l’extérieur afin d’optimiser le temps de travail de l’équipes.  </p>
+		    								<div class="socal_media">
+												<ul>
+													<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+													<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+													<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+													<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+													<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+												</ul>
+											</div>
+	    								</div>
+	    							</div>
+	    						</div>
+		    				</div> 
+		    			</div>
+		    		</div>
+	    		</div>
+	    	</div>
+	    </div>
+	    <!--	End Team
+		===================================================-->
+		<!--	Start Testimonial
+		===================================================-->
+	    <div id="testimonial" class="section bg_white pp-scrollable">
+	    	<div class="container">
+	    		<div class="testimonial my_60">
+	    			<div class="row">
+		    			<div class="col-md-12 col-lg-12">
+		    				<!--	Start Title
+		    				================================-->
+		    				<div class="main_title pb_60">
+								<h2 class="title color_primary">Commentaire</h2>
+								<p class="mt_15">L'avis de nos clients ...</p>											
+							</div>
+							<!--	End Title
+		    				================================-->
+		    			</div>
+		    			<div class="col-md-12 col-lg-12">
+		    				<div class="testimonial_item owl-carousel wow animated slideInUp">
+		    					<div class="member_feedback p_30">
+									<div class="client_img"><img src="images/testimonial/01.jpg" alt="image"></div>
+									<div class="star d-inline-block mt_30 color_default">
+										<ul>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+										</ul>
+									</div>
+									<h5 class="color_primary mb_15">Alicia Garcia</h5>
+									<p>Très bonne équipe à prendre au sérieux ! J'ai pu avoir une prestation digne des plus grands. </p>
+								</div>
+								<div class="member_feedback p_30">
+									<div class="client_img"><img src="images/testimonial/02.jpg" alt="image"></div>
+									<div class="star d-inline-block mt_30 color_default">
+										<ul>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+										</ul>
+									</div>
+									<h5 class="color_primary mb_15">Dephine Desez</h5>
+									<p>Une équipe qui a su répondre à mes besoins. Je vous les conseils !</p>
+								</div>
+								<div class="member_feedback p_30">
+									<div class="client_img"><img src="images/testimonial/03.jpg" alt="image"></div>
+									<div class="star d-inline-block mt_30 color_default">
+										<ul>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+										</ul>
+									</div>
+									<h5 class="color_primary mb_15">Pablo Tu</h5>
+									<p>De vieux amis qui ne cessera jamais de m'étonner sur la qualité de leurs travaux. </p>
+								</div>
+								<div class="member_feedback p_30">
+									<div class="client_img"><img src="images/testimonial/04.jpg" alt="image"></div>
+									<div class="star d-inline-block mt_30 color_default">
+										<ul>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+										</ul>
+									</div>
+									<h5 class="color_primary mb_15">Anna mina</h5>
+									<p>J'ai été surprise sur la rapidité que j'ai pu avoir ! je reviendrais sans aucun doute. </p>
+								</div>
+		    				</div>
+		    			</div>
+		    		</div>
+		    	</div>
+		    </div>
+		</div>
+		<!--	End Testimonial
+		===================================================-->
+		<!--	Start Contact
+		===================================================-->
+	    <div id="contact" class="section bg_white pp-scrollable">
+	    	<div class="container">
+	    		<div class="contact pt_60">
+	    			<div class="row">
+		    			<div class="col-md-12 col-lg-12">
+		    				<!--	Start Title
+		    				================================-->
+		    				<div class="main_title pb_60">
+								<h2 class="title color_primary">Contact</h2>
+								<p class="mt_15">Pour toute questions, demande de projet contacter moi grâce à ce formulaire. </p>											
+							</div>
+							<!--	End Title
+		    				================================-->
+		    			</div>
+		    		</div>
+		    		<div class="row">
+		    			<div class="col-md-5 col-lg-4">
+		    				<div class="contact_info">
+		    					<ul>
+		    						<li>
+		    							<div class="contact_icon float-left"><i class="fa fa-phone" aria-hidden="true"></i></div>
+		    							<div class="contact_text">
+		    								<h6 class="font-weight-bold color_primary">TELEPHONE</h6>
+		    								<span class="color_secondery">00687 97.58.16</span>
+		    							</div>
+		    						</li>
+		    						<li>
+		    							<div class="contact_icon float-left"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+		    							<div class="contact_text">
+		    								<h6 class="font-weight-bold color_primary">EMAIL</h6>
+		    								<span class="color_secondery">fabricedujardin873@gmail.com</span>
+		    							</div>
+		    						</li>
+		    						<li>
+		    							<div class="contact_icon float-left"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+		    							<div class="contact_text">
+		    								<h6 class="font-weight-bold color_primary">ADDRESS</h6>
+		    								<span class="color_secondery">150 rue du HAMEAU lotissement deray St-michel NOUVELLE-CALEDONIE</span>
+		    							</div>
+		    						</li>
+		    					</ul>
+		    				</div>
+		    			</div>
+		    			<div class="col-md-7 col-lg-8">
+		    				<form class="form contact_message pb_60" id="contact-form" action="f.dujardin@cci-formation.nc" method="post">
+								<div class="row">
+									<div class="col-md-6 col-lg-6">
+										<div class="form-group">
+											<input class="form-control" type="text" name="name" placeholder="Your Name" />
+										</div>
+									</div>
+									<div class="col-md-6 col-lg-6">
+										<div class="form-group">
+											<input class="form-control" type="email" name="email" placeholder="Email Address" />
+										</div>
+									</div>
+									<div class="col-md-12 col-lg-12">
+										<div class="form-group">
+										  <input class="form-control" type="text" name="subject" placeholder="Subject"/>
+										</div>
+									</div>
+									<div class="col-md-12 col-lg-12">
+										<div class="form-group">
+											<textarea class="form-control" name="message" rows="7" placeholder="Message"></textarea>
+										</div>							
+									</div>
+									<div class="col-md-12 col-lg-12">
+										<div class="form-group">
+											<input class="btn btn-default" id="send" value="Send Massage" type="submit"/>
+										</div>
+									</div>
+									<div class="col-md-12 col-lg-12">
+										<div class="error-handel">
+											<div id="success">Votre email à étà envoyé avec succès, merci.</div>
+											<div id="error"> Une erreur s'est produite lors de l'envoi du courrier électronique. Veuillez réessayer.</div>
+										</div>
+									</div>
+								</div>
+							</form>
+		    			</div>
+		    		</div>
+	    		</div>
+	    	</div>
+	    	<div class="footer pt_60 background6">
+	    		<div class="container">
+	    			<div class="footer_bottom pb_60">
+	    				<div class="row">
+		    				<div class="col-md-12 col-lg-12">
+		    					<div class="row">
+		    						<div class="col-md-6 col-lg-6">
+		    							<div class="footer-widget">
+		    								<div class="footer_title pb_30">
+												<h3 class="widget_title color_white">DERNIERS TWEETS</h3>					
+											</div>
+											<div class="twite color_secondery pb_30">
+												<p class="color_white">Comment repenser et améliorer l'ergonomie de son site web ?<a class="color_default" href="https://twitter.com/Dev_Site_Web/status/410317351213494272"> httm://envato/FabriceNC</a></p>
+												<i class="fa fa-clock-o" aria-hidden="true"></i><span>Poster le 09 DEC 2018</span>
+											</div>
+											<div class="twite color_secondery pb_30">
+												<p class="color_white">Vous cherchez un #Emploi ?
+													Avez-vous déjà pensé à vous faire coopter ?
+													  #Cooptation<a class="color_default" href="https://twitter.com/CooptAction/status/912274889620549634"> httm://envato/FabriceNouméa</a></p>
+												<i class="fa fa-clock-o" aria-hidden="true"></i><span>Posted On 12 Feb 2017</span>
+											</div>
+		    							</div>
+		    						</div>
+		    						<div class="col-md-6 col-lg-6">
+		    							<div class="footer-widget">
+		    								<div class="footer_title pb_30">
+												<h3 class="widget_title color_white">Newsletter Subscribe</h3>		
+											</div>
+											<div class="newsletter">
+												<p class="color_white">Abonner vous à notre newsletter et suivez nous . </p>
+												<div class="subscribe mt_30">
+													<div class="input-group">
+												        <input type="email" class="form-control" placeholder="Entrer votre email">
+												        <button class="btn btn-default" type="submit">Envoyer</button>
+											        </div>
+												</div>
+											</div>
+		    							</div>
+		    						</div>
+		    					</div>
+		    				</div>
+		    			</div>
+	    			</div>
+	    		</div>
+	    		<div class="copyright2 p_20 color_lightgray bg_primary text-center"><p>DUJARDIN Fabrice St-MICHEL  @ 2019. All Right Reserved.</p></div>
+	    	</div>
+	    </div>
+		<!--	End Contact
+		===================================================-->
+	</div>
+	<!--	Js Links
+	===================================================-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/jquery.pagepiling.min.js"></script>
+	<script src="js/custom.js"></script>
+	<script>
+		var deleteLog = false;
+		//	Pagepiling js
+		//=====================================================
+		$(document).ready(function() {
+	    	$('#pagepiling').pagepiling({
+		    	menu: '#menu',
+		    	anchors: ['page1', 'page2', 'page3', 'page4', 'page5','page6', 'page7', 'page8','page9'],
+		    	loopTop: true,
+		    	loopBottom: true
+		  	});
+	    });
+		//	Sidebar Nav Menu js
+		//=====================================================
+		function openNav() {
+		    document.getElementById("mysidenav").style.width = "150px";
+		}
+		function closeNav() {
+		    document.getElementById("mysidenav").style.width = "0";
+		}
+    </script>
+</body>
+
+
+</html>

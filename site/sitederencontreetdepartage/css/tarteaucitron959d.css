@@ -1,0 +1,26 @@
+#tarteaucitronPersonalize {
+    background-color: #7ab51d !important;
+}
+.tac_activate {
+    display: none !important;
+}
+.tarteaucitronBorder .tarteaucitronName a[href*="https://opt-out.ferank.eu/service"] {
+	display: none;
+}
+#tarteaucitronAlertBig {
+  background: rgba(0, 0, 0, .3);
+}
+.tarteaucitronAlertBigBottom {
+  top: 0;
+  bottom: auto !important;
+}
+#tarteaucitronRoot *,
+#tarteaucitronAlertBig #tarteaucitronPersonalize,
+#tarteaucitronAlertBig #tarteaucitronDisclaimerAlert,
+#tarteaucitronAlertBig #tarteaucitronDisclaimerAlert b {
+  font-size: 10px;
+}
+
+#tarteaucitronRoot {
+  display: none;
+}
