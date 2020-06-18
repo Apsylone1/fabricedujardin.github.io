@@ -4,44 +4,39 @@ $(document).ready(function () {
     discover: {
       title: "RencontreEtPartage",
       tag: "PLATEFORME DE RENCONTRE AMICALE.",
-      detail:
-        "Rencontre.nc et une plateforme de rencontre amicale mais attention ne vous laisser pas avoir car il y a que la page inscription de disponible",
-      link:
-        "fabricedujardinportfolio.github.io/site/sitederencontreetdepartage/index.html",
+      detail: "Rencontre.nc et une plateforme de rencontre amicale mais attention ne vous laisser pas avoir car il y a que la page inscription de disponible",
+      link: "fabricedujardinportfolio.github.io/site/sitederencontreetdepartage/index.html",
     },
     ordering: {
       title: "STREAMINGNC",
       tag: "PLATEFORME DE STREAMING.",
-      detail:
-        "StreamingNc est une plate-forme vidéo en temps réel qui permet aux clients locaux de bénéficié des meilleur vidéo.",
-      link: "#",
+      detail: "'Attention se site est en construction': StreamingNc est une plate-forme vidéo en temps réel qui permet aux clients locaux de bénéficié des meilleur vidéo.",
+      link: "fabricedujardinportfolio.github.io/site/Streaming/index.html"
+
     },
     newrelic: {
       title: "Khan||fitnessClub",
       tag: "PLATEFORME DE FITNESS.",
-      detail:
-        "Khan||fitnessClub est une plateforme de sport individuel qui offre des multitude de choie pour tout type de persone ",
+      detail: "Attention se site est en construction : Khan||fitnessClub est une plateforme de sport individuel qui offre des multitude de choie pour tout type de persone ",
       link: "fabricedujardinportfolio.github.io/site/Sport/index.html",
     },
-    roambi: {
-      title: "Roambi.com",
-      tag: "BUSINESS ANALYTICS.",
-      detail:
-        "Roambi provides analytics, reporting, and business intelligence for companies to use on the go. A Wordpress hosted site written in PHP and Javascript with Hubspot Integration.",
-      link: "http://www.roambi.com",
-    },
+    // roambi: {
+    //   title: "Roambi.com",
+    //   tag: "BUSINESS ANALYTICS.",
+    //   detail:
+    //     "Roambi provides analytics, reporting, and business intelligence for companies to use on the go. A Wordpress hosted site written in PHP and Javascript with Hubspot Integration.",
+    //   link: "http://www.roambi.com",
+    // },
     walker: {
       title: "CITY EXPRESS",
       tag: "Site vitrine de déménagement.",
-      detail:
-        "City express est un site spécialisé dans le déménagement en nouvelle calédonie",
+      detail: "Attention se site est en construction : City express est un site spécialisé dans le déménagement en nouvelle calédonie",
       link: "https://www.cityexpress.nc/",
     },
     powur: {
       title: "Samui Consulting",
       tag: "Site vitrine d'agence immobiliére.",
-      detail:
-        "Samui consulting est un site qui référence les appartement ou terrain quel que soie son type pour les resident de thailand ",
+      detail: " Attention se site est en construction : Samui consulting est un site qui référence les appartement ou terrain quel que soie son type pour les resident de thailand ",
       link: "http://samuiconsulting.test.nc/",
     },
     // mystand: {
@@ -152,17 +147,16 @@ $(document).ready(function () {
     $("#modal .tag").text(modalText[id].tag);
     if (modalText[id].link)
       $("#modal .button")
-        .addClass("visible")
-        .parent()
-        .attr("href", modalText[id].link);
+      .addClass("visible")
+      .parent()
+      .attr("href", modalText[id].link);
 
     $.each($("#modal li"), function (index, value) {
       $(this).text(modalText[id].bullets[index]);
     });
     $.each($("#modal .slide"), function (index, value) {
       $(this).css({
-        background:
-          "url('img/slides/" + id + "-" + index + ".jpg') center center/cover",
+        background: "url('img/slides/" + id + "-" + index + ".jpg') center center/cover",
         backgroundSize: "cover",
       });
     });
