@@ -48,3 +48,10 @@ body>div.forkit-curtain>div.container>div>div.col-md-8>img:nth-child(10),
 body>div.forkit-curtain>div.container>div>div.col-md-8>img:nth-child(11) {
     height: 150px;
 }
+
+
+.tailleImage {
+    object-fit: fill;
+    width: 100%;
+    height: 279px;
+}
