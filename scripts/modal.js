@@ -20,13 +20,12 @@ $(document).ready(function () {
       detail: "Attention se site est en construction : Khan||fitnessClub est une plateforme de sport individuel qui offre des multitude de choie pour tout type de persone ",
       link: "fabricedujardinportfolio.github.io/site/Sport/index.html",
     },
-    // roambi: {
-    //   title: "Roambi.com",
-    //   tag: "BUSINESS ANALYTICS.",
-    //   detail:
-    //     "Roambi provides analytics, reporting, and business intelligence for companies to use on the go. A Wordpress hosted site written in PHP and Javascript with Hubspot Integration.",
-    //   link: "http://www.roambi.com",
-    // },
+    cciDev: {
+      title: "DEV WEB 2020",
+      tag: "EDUCATIONS",
+      detail: "Se site apportera aux utilisateur un visue sur l'avancement de la formations de développeur web de la cci ",
+      link: "https://fabricedujardinportfolio.github.io/site/cci/index.html",
+    },
     walker: {
       title: "CITY EXPRESS",
       tag: "Site vitrine de déménagement.",

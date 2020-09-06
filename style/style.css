@@ -842,7 +842,7 @@ section:nth-of-type(3) #gallery .mix:nth-child(5) .card {
 }
 
 section:nth-of-type(3) #gallery .mix:nth-child(6) .card {
-  background: url("../img/thumb-6.jpg") center center/cover;
+  background: url("../img/thumb-6.png") center center/cover;
 }
 
 section:nth-of-type(3) #gallery .mix:nth-child(7) .card {
