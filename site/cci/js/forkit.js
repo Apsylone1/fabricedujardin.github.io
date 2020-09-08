@@ -197,9 +197,13 @@
 	}
 
 	function update() {
+		let vraisRotate = true;
 		// Distance between mouse and top right corner
 		var distance = distanceBetween( mouse.x, mouse.y, window.innerWidth, 0 );
 
+		// if(vraisRotate == false){
+
+		// }
 		// If we're OPENED the curtainTargetY should ease towards page bottom
 		if( state === STATE_OPENED ) {
 			curtainTargetY = Math.min( curtainTargetY + ( window.innerHeight - curtainTargetY ) * 0.2, window.innerHeight );
