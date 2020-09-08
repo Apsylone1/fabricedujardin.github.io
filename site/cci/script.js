@@ -129,7 +129,7 @@ const phrases = [
 'Qu\'il y a une différence',
 'Entre connaître le chemin',
 'Et marcher sur le chemin',
-'L\'avenir de demain nous vous le proposerons !'];
+'L\'avenir de demain nous vous le proposerons!'];
 
 
 const el = document.querySelector('.text');
