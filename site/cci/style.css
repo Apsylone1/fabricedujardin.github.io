@@ -1,5 +1,26 @@
 /* https://webkit.org/blog-files/3d-transforms/morphing-cubes.html */
-
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+html,
+body {
+  font-family: 'Roboto Mono', monospace;
+  background: #212121;
+  height: 100%;
+}
+.containerText {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.text {
+  font-weight: 100;
+  font-size: 28px;
+  color: black;
+}
+.dud {
+  color: #757575;
+}
 body {
   background-color: black;
   color: white;
@@ -195,3 +216,4 @@ body {
 .controls>div {
   margin: 10px;
 }
+
