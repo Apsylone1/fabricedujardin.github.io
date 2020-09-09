@@ -79,7 +79,9 @@ body {
 }
 
 #shape {
-  -webkit-animation: spin 8s infinite linear;
+  -webkit-animation: spin 25s infinite linear;
+  
+  animation-play-state: running;
 }
 
 @-webkit-keyframes spin {

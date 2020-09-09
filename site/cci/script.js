@@ -41,6 +41,7 @@ function toggleShape()
   }
 
   // Move the ring back in Z so it's not so in-your-face.
+  
   var stage = document.getElementById('stage');
   if (hasClassName(shape, 'ring'))
     stage.style.webkitTransform = 'translateZ(-200px)';
