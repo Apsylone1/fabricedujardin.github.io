@@ -1,11 +1,13 @@
 /* https://webkit.org/blog-files/3d-transforms/morphing-cubes.html */
 @import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+
 html,
 body {
   font-family: 'Roboto Mono', monospace;
   background: #212121;
-  height: 100%;
+  /* height: 100%; */
 }
+
 .containerText {
   height: 100%;
   width: 100%;
@@ -13,14 +15,17 @@ body {
   align-items: center;
   display: flex;
 }
+
 .text {
   font-weight: 100;
   font-size: 28px;
   color: black;
 }
+
 .dud {
   color: #757575;
 }
+
 body {
   background-color: black;
   color: white;
@@ -34,13 +39,13 @@ body {
   background-repeat: no-repeat;
 }
 
-#container {
+/* #container {
   width: 100%;
   height: 700px;
   -webkit-perspective: 800;
   /* For compatibility with iPhone 3.0, we leave off the units here */
   -webkit-perspective-origin: 50% 225px;
-}
+} */
 
 #stage {
   width: 100%;
@@ -75,12 +80,12 @@ body {
 }
 
 #shape.backfaces .plane {
-  -webkit-backface-visibility: visible;
+  -webkit-backface-visibility: hidden;
 }
 
 #shape {
   -webkit-animation: spin 25s infinite linear;
-  
+
   animation-play-state: running;
 }
 
@@ -218,4 +223,3 @@ body {
 .controls>div {
   margin: 10px;
 }
-
