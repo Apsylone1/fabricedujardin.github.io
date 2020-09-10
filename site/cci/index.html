@@ -9,6 +9,7 @@
 	<link href="css/css/bootstrap.min.css" rel="stylesheet" />
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
 		type="text/css" />
+		
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/demo.css" />
@@ -36,6 +37,8 @@
 			}
 		}
 	</style>
+	
+	<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 </head>
 
 <body>
@@ -59,7 +62,25 @@
 				alt="Fork me on GitHub" /></a>
 	</header>
 	<!-- Section titre et paragraphe -->
-	<section class="container" style="position: relative;">
+	<div class="container">
+			<div class="accordion" id="accordionExample">
+				<div class="card" style="border: none;">
+				  <div class="card-header" id="headingOne">
+					<h2 class="mb-0">
+					  <button class="btn btn-link btn-block text-center" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+						CALENDRIER DE LA CLASSE
+					  </button>
+					</h2>
+				  </div>
+			  
+				  <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample">
+					<div class="card-body">
+					<img src="img/calendr.jpg" alt="" style="width: 100%;"></div>
+				  </div>
+				</div>
+		</div>
+	</div>
+	<section class="container" >
 		<div class="row">
 			<div class="col-md-12 colorBlackStrong">
 				<div class="row text-center espaceTop " style='font-size: 1.1em; z-index: 0;'>
@@ -169,9 +190,11 @@
 								collègues de classe</p>
 							<div class="d-flex justify-content-between align-items-center">
 								<div class="btn-group">
-									<button type="button" class="btn btn-sm btn-outline-secondary btn btn-primary"
-										onclick="window.location.href='articles/indexSemaine1.html'">Lire la
-										rétrospective</button>
+									<button type="button"
+										class="btn btn-sm btn-outline-secondary btn btn-primary " id="buttonSlide"
+										onclick="window.location.href='articles/indexSemaine1.html'">
+										<div id="msg">J'arrive</div>
+									</button>
 								</div>
 								<small class="text-muted">05/09/2020</small>
 							</div>
