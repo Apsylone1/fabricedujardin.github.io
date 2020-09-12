@@ -24,7 +24,7 @@ $(document).ready(function () {
       title: "DEV WEB 2020",
       tag: "EDUCATIONS",
       detail: "Se site apportera aux utilisateur un visue sur l'avancement de la formations de développeur web de la cci ",
-      link: "https://fabricedujardinportfolio.github.io/site/cci/index.html",
+      link: "https://ccidev2020.github.io/",
     },
     walker: {
       title: "CITY EXPRESS",
