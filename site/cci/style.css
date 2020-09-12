@@ -44,8 +44,8 @@ body {
   height: 700px;
   -webkit-perspective: 800;
   /* For compatibility with iPhone 3.0, we leave off the units here */
-  -webkit-perspective-origin: 50% 225px;
-} */
+/* -webkit-perspective-origin: 50% 225px; */
+/* } */
 
 #stage {
   width: 100%;
