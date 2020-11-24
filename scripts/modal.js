@@ -11,7 +11,7 @@ $(document).ready(function () {
       title: "STREAMINGNC",
       tag: "PLATEFORME DE STREAMING.",
       detail: "'Attention se site est en construction': StreamingNc est une plate-forme vidéo en temps réel qui permet aux clients locaux de bénéficié des meilleur vidéo.",
-      link: "fabricedujardinportfolio.github.io/site/Streaming/index.html"
+      link: "#"
 
     },
     newrelic: {
