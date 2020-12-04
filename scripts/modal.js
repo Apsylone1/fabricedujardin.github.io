@@ -20,12 +20,12 @@ $(document).ready(function () {
       detail: "Attention se site est en construction : Khan||fitnessClub est une plateforme de sport individuel qui offre des multitude de choie pour tout type de persone ",
       link: "fabricedujardinportfolio.github.io/site/Sport/index.html",
     },
-    cciDev: {
-      title: "DEV WEB 2020",
-      tag: "EDUCATIONS",
-      detail: "Se site apportera aux utilisateur un visue sur l'avancement de la formations de développeur web de la cci ",
-      link: "https://ccidev2020.github.io/",
-    },
+    // cciDev: {
+    //   title: "DEV WEB 2020",
+    //   tag: "EDUCATIONS",
+    //   detail: "Se site apportera aux utilisateur un visue sur l'avancement de la formations de développeur web de la cci ",
+    //   link: "https://ccidev2020.github.io/",
+    // },
     walker: {
       title: "CITY EXPRESS",
       tag: "Site vitrine de déménagement.",
@@ -33,10 +33,10 @@ $(document).ready(function () {
       link: "https://www.cityexpress.nc/",
     },
     powur: {
-      title: "Samui Consulting",
-      tag: "Site vitrine d'agence immobiliére.",
-      detail: " Attention se site est en construction : Samui consulting est un site qui référence les appartement ou terrain quel que soie son type pour les resident de thailand ",
-      link: "http://samuiconsulting.test.nc/",
+      title: "Le bise du caillou",
+      tag: "Site de vente personel.",
+      detail: " Site de vente personel toujour en cours de développement . ",
+      link: "https://fabricedujardinportfolio.github.io/site/magasin/index.html",
     },
     // mystand: {
     //   title: "MyStand",
